@@ -1,0 +1,4 @@
+1. php include require
+2. file upload
+3. cookie
+4. session
