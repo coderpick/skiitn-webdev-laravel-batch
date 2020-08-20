@@ -1,0 +1,20 @@
+body{
+    background: #019aba;
+}
+.container {
+    width:900px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.myform {
+    width: 450px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+form{
+   border: 2px dotted #000; 
+    background: pink;
+    padding: 10px;
+}
