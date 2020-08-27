@@ -1,0 +1,8 @@
+1. static porperty
+2. static method
+3. polymorphsiom
+	i. Abastruct class
+	ii. interfase class
+4. autoload
+5. namespace
+6. trait
