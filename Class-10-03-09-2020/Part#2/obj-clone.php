@@ -1,22 +1,29 @@
 <?php
+
 class Corporate_Drone {
-        private $employeeid;
-        private $tiecolor;
-        // Define a setter and getter for $employeeid
-        function setEmployeeID($employeeid) {
+
+    private $employeeid;
+    private $tiecolor;
+    // Define a setter and getter for $employeeid
+    function setEmployeeID($employeeid) {
         $this->employeeid = $employeeid;
-        }
-        function getEmployeeID() {
-        return $this->employeeid;
-        }
-        // Define a setter and getter for $tiecolor
-        function setTieColor($tiecolor) {
-        $this->tiecolor = $tiecolor;
-        }
-        function getTieColor() {
-        return $this->tiecolor;
-        }
     }
+
+    function getEmployeeID() {
+
+        return $this->employeeid;
+    }
+
+    // Define a setter and getter for $tiecolor
+    function setTieColor($tiecolor) {
+        $this->tiecolor = $tiecolor;
+    }
+    
+    function getTieColor() {
+        return $this->tiecolor;
+    }
+
+}
 // Create new Corporate_Drone object
 $drone1 = new Corporate_Drone();
 

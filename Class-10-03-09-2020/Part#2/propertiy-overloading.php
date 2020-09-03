@@ -13,6 +13,6 @@
 	}
 
   $furits = new Furits;
-  // $furits->kola ="Sagor kola";
-  // $furits->apple='Red apple';
-  $furits->mango;
+  $furits->kola ="Sagor kola";
+  $furits->apple='Red apple';
+ // $furits->mango;

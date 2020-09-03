@@ -1,6 +1,7 @@
 <?php 
 
 	class Person{
+
 		public $name="";
 		public $age ="";
 
@@ -15,7 +16,7 @@
 
 		public function getInfo()
 		{
-			echo "My name is".$this->name." and age is ". $this->age."year";
+			echo "My name is ".$this->name." and age is ". $this->age." year";
 		}
 	}
 	$person = new Person;
@@ -50,5 +51,7 @@ class person2
 }
  
 $person = new person2();
-  $person->setName("Masud Alam")->setAge("33")->getInfo();
-  ?>
+
+$person->setName("Masud Alam")->setAge("33")->getInfo();
+
+?>
